@@ -1,12 +1,12 @@
-                    <div class="flex flex-1 md:flex-row lg:flex-row p-1 mt-2 lg:mx-2 md:mx-2">
-                            <div class="rounded rounded-t-lg bg-white w-100 md:w-auto overflow-hidden shadow  my-3">
+                    <div class="flex flex-1 p-1 mt-2 md:flex-row lg:flex-row lg:mx-2 md:mx-2">
+                            <div class="w-full my-3 overflow-hidden bg-white rounded rounded-t-lg shadow">
                                 <div class="border-b border-light-grey">
-                                    <div class="py-2 px-4 font-bold text-xl">Grille des utilisateurs</div>
+                                    <div class="px-4 py-2 text-xl font-bold">Grille des utilisateurs</div>
                                 </div>
                                 
-                                <div class="grid grid-cols-4 gap-4 px-4 py-4 table-responsive">
-                                    <table class="table-auto">
-                                    <thead class="border-2 bg-red-700 text-white">
+                                <div class="w-full gap-4 px-4 py-4 table-responsive">
+                                    <table class="w-full">
+                                    <thead class="text-white bg-red-700 border-2">
                                         <tr>
                                             <th>Song</th>
                                             <th>Artist</th>

@@ -1,49 +1,49 @@
 <div class="mx-auto bg-grey-400">
-    <div class="min-h-screen flex flex-col">
+    <div class="flex flex-col min-h-screen">
         <!--/En-tête-->
 
         <div class="flex flex-1">
             <!--Principal-->
-            <main class="bg-white-300 flex-1 p-3 overflow-hidden">
+            <main class="flex-1 p-3 overflow-hidden bg-white-300">
                 <div class="flex flex-col">
                     <!-- La ligne de statistiques commence ici -->
-                    <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2">
-                        <div class="shadow-lg bg-red-700 border-l-8 hover:bg-red-500 border-black rounded rounded-t-lg mb-2 p-2 md:w-1/4 mx-2">
-                            <div class="p-4 flex flex-col">
-                                <a href="#" class="no-underline text-white text-2xl">
+                    <div class="flex flex-col flex-1 mx-2 md:flex-row lg:flex-row">
+                        <div class="p-2 mx-2 mb-2 bg-red-700 border-l-8 border-black rounded rounded-t-lg shadow-lg hover:bg-red-500 md:w-1/4">
+                            <div class="flex flex-col p-4">
+                                <a href="#" class="text-2xl text-white no-underline">
                                     244
                                 </a>
-                                <a href="#" class="no-underline text-white text-lg">
+                                <a href="#" class="text-lg text-white no-underline">
                                     Total Sales
                                 </a>
                             </div>
                         </div>
-                        <div class="shadow bg-green-700 border-l-8 hover:bg-green-500 border-black rounded rounded-t-lg mb-2 p-2 md:w-1/4 mx-2">
-                            <div class="p-4 flex flex-col">
-                                <a href="#" class="no-underline text-white text-2xl">
+                        <div class="p-2 mx-2 mb-2 bg-green-700 border-l-8 border-black rounded rounded-t-lg shadow hover:bg-green-500 md:w-1/4">
+                            <div class="flex flex-col p-4">
+                                <a href="#" class="text-2xl text-white no-underline">
                                     199
                                 </a>
-                                <a href="#" class="no-underline text-white text-lg">
+                                <a href="#" class="text-lg text-white no-underline">
                                     Total Cost
                                 </a>
                             </div>
                         </div>
-                        <div class="shadow bg-yellow-700 border-l-8 hover:bg-yellow-500 border-black rounded rounded-t-lg mb-2 p-2 md:w-1/4 mx-2">
-                            <div class="p-4 flex flex-col">
-                                <a href="#" class="no-underline text-white text-2xl">
+                        <div class="p-2 mx-2 mb-2 bg-yellow-700 border-l-8 border-black rounded rounded-t-lg shadow hover:bg-yellow-500 md:w-1/4">
+                            <div class="flex flex-col p-4">
+                                <a href="#" class="text-2xl text-white no-underline">
                                     900
                                 </a>
-                                <a href="#" class="no-underline text-white text-lg">
+                                <a href="#" class="text-lg text-white no-underline">
                                     Total Users
                                 </a>
                             </div>
                         </div>
-                        <div class="shadow bg-sky-700 border-l-8 hover:bg-sky-500 border-black rounded rounded-t-lg mb-2 p-2 md:w-1/4 mx-2">
-                            <div class="p-4 flex flex-col">
-                                <a href="#" class="no-underline text-white text-2xl">
+                        <div class="p-2 mx-2 mb-2 border-l-8 border-black rounded rounded-t-lg shadow bg-sky-700 hover:bg-sky-500 md:w-1/4">
+                            <div class="flex flex-col p-4">
+                                <a href="#" class="text-2xl text-white no-underline">
                                     500
                                 </a>
-                                <a href="#" class="no-underline text-white text-lg">
+                                <a href="#" class="text-lg text-white no-underline">
                                     Total Products
                                 </a>
                             </div>
@@ -53,15 +53,15 @@
                     <!-- /La ligne de statistiques se termine ici -->
 
                     <!-- La sextion des cartes commence ici -->
-                    <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 bg-black">
+                    <div class="flex flex-col flex-1 mx-2 bg-black md:flex-row lg:flex-row">
                         <!-- card -->
-                        <div class="rounded overflow-hidden shadow bg-white mx-2 w-full">
+                        <div class="w-full mx-2 overflow-hidden bg-white rounded shadow">
                             <div class="px-6 py-2 border-b border-light-grey">
-                                <div class="font-bold text-xl">Derniers clients</div>
+                                <div class="text-xl font-bold">Derniers clients</div>
                             </div>
-                            <div class="px-4 py-4 table-responsive">
-                                <table class="w-full md:w-auto">
-                                    <thead class="border-2 bg-red-700 text-white">
+                            <div class="w-full px-4 py-4 table-responsive">
+                                <table class="w-full">
+                                    <thead class="text-white bg-red-700 border-2">
                                         <tr>
                                             <th>Entête 1</th>
                                             <th>Entête 2</th>
@@ -101,30 +101,30 @@
                     <!-- /La section des cartes se termine ici -->
 
                     <!-- Barre de progression -->
-                    <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 mt-2">
-                        <div class="rounded overflow-hidden shadow bg-white mx-2 w-full pt-2">
+                    <div class="flex flex-col flex-1 mx-2 mt-2 md:flex-row lg:flex-row">
+                        <div class="w-full pt-2 mx-2 overflow-hidden bg-white rounded shadow">
                             <div class="px-6 py-2 border-b border-light-grey">
-                                <div class="font-bold text-xl">Progress Among Projects</div>
+                                <div class="text-xl font-bold">Progress Among Projects</div>
                             </div>
                             <div class="">
                                 <div class="w-full">
-                                    <div class="shadow w-full bg-grey-light">
-                                        <div class="bg-blue-500 text-xs leading-none py-1 text-center text-white"
+                                    <div class="w-full shadow bg-grey-light">
+                                        <div class="py-1 text-xs leading-none text-center text-white bg-blue-500"
                                              style="width: 45%">45%
                                         </div>
                                     </div>
-                                    <div class="shadow w-full bg-grey-light mt-2">
-                                        <div class="bg-teal-500 text-xs leading-none py-1 text-center text-white"
+                                    <div class="w-full mt-2 shadow bg-grey-light">
+                                        <div class="py-1 text-xs leading-none text-center text-white bg-teal-500"
                                              style="width: 55%">55%
                                         </div>
                                     </div>
-                                    <div class="shadow w-full bg-grey-light mt-2">
-                                        <div class="bg-orange-500 text-xs leading-none py-1 text-center text-white"
+                                    <div class="w-full mt-2 shadow bg-grey-light">
+                                        <div class="py-1 text-xs leading-none text-center text-white bg-orange-500"
                                              style="width: 65%">65%
                                         </div>
                                     </div>
-                                    <div class="shadow w-full bg-grey-300 mt-2">
-                                        <div class="bg-red-800 text-xs leading-none py-1 text-center text-white"
+                                    <div class="w-full mt-2 shadow bg-grey-300">
+                                        <div class="py-1 text-xs leading-none text-center text-white bg-red-800"
                                              style="width: 75%">75%
                                         </div>
                                     </div>
@@ -133,21 +133,21 @@
                         </div>
                     </div>
                     <!--Onglets de profil-->
-                    <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 p-1 mt-2 mx-auto lg:mx-2 md:mx-2 justify-between">
+                    <div class="flex flex-col justify-between flex-1 p-1 mx-2 mx-auto mt-2 md:flex-row lg:flex-row lg:mx-2 md:mx-2">
                         <!--Top user 1-->
-                        <div class="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
+                        <div class="max-w-xs my-3 overflow-hidden rounded rounded-t-lg shadow">
                             <img src="https://therichpost.com/wp-content/uploads/2021/04/flip-3.jpg" alt="" class="w-full"/>
                             <div class="flex justify-center -mt-8">
                                 <img src="https://therichpost.com/wp-content/uploads/2021/03/avatar8.png" alt=""
-                                     class="responsvie-img rounded-full border-solid border-white border-2 -mt-3">
+                                     class="-mt-3 border-2 border-white border-solid rounded-full responsvie-img">
                             </div>
-                            <div class="text-center px-3 pb-6 pt-2">
-                                <h3 class="text-black text-sm bold font-sans">Olivia Dunham</h3>
+                            <div class="px-3 pt-2 pb-6 text-center">
+                                <h3 class="font-sans text-sm text-black bold">Olivia Dunham</h3>
                                 <p class="mt-2 font-sans font-light text-grey-700">Hello, i'm from another the other
                                     side!</p>
                             </div>
                             <div class="flex justify-center pb-3 text-grey-dark">
-                                <div class="text-center mr-3 border-r pr-3">
+                                <div class="pr-3 mr-3 text-center border-r">
                                     <h2>34</h2>
                                     <span>Photos</span>
                                 </div>
@@ -158,19 +158,19 @@
                             </div>
                         </div>
                         <!--Top user 2-->
-                        <div class="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
+                        <div class="max-w-xs my-3 overflow-hidden rounded rounded-t-lg shadow">
                             <img src="https://therichpost.com/wp-content/uploads/2021/04/flip-3.jpg" alt="" class="w-full"/>
                             <div class="flex justify-center -mt-8">
                                 <img src="https://therichpost.com/wp-content/uploads/2021/03/avatar8.png" alt=""
-                                     class="responsvie-img rounded-full border-solid border-white border-2 -mt-3">
+                                     class="-mt-3 border-2 border-white border-solid rounded-full responsvie-img">
                             </div>
-                            <div class="text-center px-3 pb-6 pt-2">
-                                <h3 class="text-black text-sm bold font-sans">Olivia Dunham</h3>
+                            <div class="px-3 pt-2 pb-6 text-center">
+                                <h3 class="font-sans text-sm text-black bold">Olivia Dunham</h3>
                                 <p class="mt-2 font-sans font-light text-grey-dark">Hello, i'm from another the other
                                     side!</p>
                             </div>
                             <div class="flex justify-center pb-3 text-grey-dark">
-                                <div class="text-center mr-3 border-r pr-3">
+                                <div class="pr-3 mr-3 text-center border-r">
                                     <h2>34</h2>
                                     <span>Photos</span>
                                 </div>
@@ -181,19 +181,19 @@
                             </div>
                         </div>
                         <!--Top user 3-->
-                        <div class="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
+                        <div class="max-w-xs my-3 overflow-hidden rounded rounded-t-lg shadow">
                             <img src="https://therichpost.com/wp-content/uploads/2021/04/flip-3.jpg" alt="" class="w-full"/>
                             <div class="flex justify-center -mt-8">
                                 <img src="https://therichpost.com/wp-content/uploads/2021/03/avatar8.png" alt=""
-                                     class="responsvie-img rounded-full border-solid border-white border-2 -mt-3">
+                                     class="-mt-3 border-2 border-white border-solid rounded-full responsvie-img">
                             </div>
-                            <div class="text-center px-3 pb-6 pt-2">
-                                <h3 class="text-black text-sm bold font-sans">Olivia Dunham</h3>
+                            <div class="px-3 pt-2 pb-6 text-center">
+                                <h3 class="font-sans text-sm text-black bold">Olivia Dunham</h3>
                                 <p class="mt-2 font-sans font-light text-grey-dark">Hello, i'm from another the other
                                     side!</p>
                             </div>
                             <div class="flex justify-center pb-3 text-grey-dark">
-                                <div class="text-center mr-3 border-r pr-3">
+                                <div class="pr-3 mr-3 text-center border-r">
                                     <h2>34</h2>
                                     <span>Photos</span>
                                 </div>

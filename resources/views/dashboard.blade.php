@@ -9,7 +9,7 @@
     </div> --}}
     @livewire('navigation-menu')        
     <div class="flex min-h-screen" x-data="{
-        menu : [false, false, false, false, true, false],
+        menu : [true, false, false, false, false, false],
         afficher(index){
             for(let i = 0; i < this.menu.length; i++){
                 if(i == index) this.menu[i] = true
